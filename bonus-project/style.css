@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f5f7fa;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:#1e293b;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.menu{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+.menu a{
+    position:relative;
+    color:white;
+    text-decoration:none;
+    padding:8px 12px;
+    transition:all 0.3s ease;
+}
+
+.menu a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-4px;
+    width:0;
+    height:2px;
+    background:#38bdf8;
+    transition:width 0.3s ease;
+}
+
+.menu a:hover{
+    color:#38bdf8;
+    transform:translateY(-2px);
+}
+
+.menu a:hover::after{
+    width:100%;
+}
+
+/* Hero */
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#666;
+}
+
+/* Gallery */
+
+.gallery-section{
+    padding:40px;
+}
+
+.gallery-section h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:15px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+/* Calculator */
+
+.calculator{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.calculator h2{
+    margin-bottom:20px;
+}
+
+.calculator input{
+    padding:12px;
+    margin:10px;
+    width:250px;
+}
+
+.calculator button{
+    padding:12px 25px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#result{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .menu{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .gallery{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .hero h1{
+        font-size:30px;
+    }
+}
+
+@media(max-width:480px){
+
+    .gallery{
+        grid-template-columns:1fr;
+    }
+
+    .calculator input{
+        width:100%;
+    }
+}
