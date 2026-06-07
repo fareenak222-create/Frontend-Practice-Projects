@@ -1,27 +1,37 @@
-# Frontend Practice Projects
+# 🚀 Frontend Practice Projects
 
-This repository contains beginner frontend projects built using:
+Hi! I'm learning Frontend Development and this repository contains my practice projects built using:
 
-- HTML5
-- CSS3
-- Flexbox
-- CSS Grid
+- HTML
+- CSS
 - JavaScript
 
-## Projects
+---
 
-1. Responsive Navbar
-2. Flexbox Cards
-3. Grid Gallery
-4. Dashboard Layout
-5. Marks Calculator
-6. Simple Calculator
-7. Even/Odd Checker
-8. Product Price Calculator
-9. Responsive Flexbox Layout
-10. Profile Card
-11. Bonus Project
+## 📁 Projects Included
 
-## Author
+- Task 1: Navbar
+- Task 2: Cards
+- Task 3: Gallery
+- Task 4: Dashboard
+- Task 5: Marks Calculator
+- Task 6: Simple Calculator
+- Task 7: Even/Odd Checker
+- Task 8: Price Calculator
+- Task 9: Flex Layout
+- Task 10: Mini Profile Card
 
-Fareena Khan# Frontend Practice Projects
+---
+
+## 🎯 Purpose
+To improve my frontend development skills by building real UI components and small projects.
+
+---
+
+## 🔗 Live Portfolio
+(After enabling GitHub Pages, paste link here)
+
+---
+
+## 💼 Author
+Fareena Khan
