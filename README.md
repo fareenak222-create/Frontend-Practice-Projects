@@ -29,7 +29,7 @@ To improve my frontend development skills by building real UI components and sma
 ---
 
 ## 🔗 Live Portfolio
-(After enabling GitHub Pages, paste link here)
+( https://fareenak222-create.github.io/Frontend-Practice-Projects/)
 
 ---
 
